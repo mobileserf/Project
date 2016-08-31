@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/login_fb"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Facebook"
+        android:gravity="center"
+        android:drawableLeft="@drawable/facebook"/>
+    <Button
+        android:id="@+id/login_twitter"
+        android:layout_below="@id/login_fb"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Twitter"
+        android:gravity="center"
+        android:drawableLeft="@drawable/twitter"/>
+    <Button
+        android:id="@+id/login_instagram"
+        android:layout_below="@id/login_twitter"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Instagram"
+        android:gravity="center"
+        android:drawableLeft="@drawable/instagram"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/login_instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="OR"
+        android:textSize="20sp"
+        android:textColor="@color/grey"/>
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/text1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/grey"
+        android:hint="User Name"/>
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/user_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/grey"
+        android:hint="Password"/>
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_below="@id/user_password"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Login"/>
+
+</RelativeLayout>

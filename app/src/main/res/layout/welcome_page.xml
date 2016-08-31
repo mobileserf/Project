@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/image"
+        android:src="@drawable/food_image">
+    </ImageView>
+
+
+<Button
+    android:id="@+id/login"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="@string/login"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@android:color/transparent"
+    android:textColor="@color/grey"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="120dp"
+    android:textSize="20sp"/>
+<Button
+    android:id="@+id/menu"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="@string/menu"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@android:color/transparent"
+    android:textColor="@color/grey"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="85dp"
+    android:textSize="20sp"/>
+
+</RelativeLayout>

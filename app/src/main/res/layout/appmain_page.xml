@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- The main content view -->
+    <RelativeLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <!-- The navigation drawer -->
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:id="@+id/sliding_menu"
+        android:layout_gravity="start">
+
+        <TextView
+            android:id="@+id/coffee_home"
+            android:text="Coffee Home"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:background="@color/babyblue"/>
+        <TextView
+            android:id="@+id/last_visited"
+            android:layout_below="@+id/coffee_home"
+            android:textSize="18sp"
+            android:text="Last Visited"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:background="@color/light_grey"/>
+        <TextView
+            android:id="@+id/favorites"
+            android:layout_below="@+id/last_visited"
+            android:textSize="18sp"
+            android:text="Favorites"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:background="@color/babyblue"/>
+        <TextView
+            android:id="@+id/payments"
+            android:layout_below="@+id/favorites"
+            android:textSize="18sp"
+            android:text="Payments"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:background="@color/light_grey"/>
+        <TextView
+            android:id="@+id/personal"
+            android:layout_below="@+id/payments"
+            android:textSize="18sp"
+            android:text="Personal"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:background="@color/babyblue"/>
+        <TextView
+            android:id="@+id/giftcards"
+            android:layout_below="@+id/personal"
+            android:textSize="18sp"
+            android:text="Gift Cards"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:background="@color/light_grey"/>
+        <TextView
+            android:id="@+id/coupons"
+            android:layout_below="@+id/giftcards"
+            android:textSize="18sp"
+            android:text="Coupons"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:background="@color/babyblue"/>
+        <TextView
+            android:id="@+id/about_us"
+            android:layout_below="@+id/coupons"
+            android:textSize="18sp"
+            android:text="About Us"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:background="@color/light_grey"/>
+        <TextView
+            android:id="@+id/terms_conditions"
+            android:layout_below="@+id/about_us"
+            android:textSize="18sp"
+            android:text="Terms and Conditions"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:background="@color/babyblue"/>
+
+
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

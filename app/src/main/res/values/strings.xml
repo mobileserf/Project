@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FoodToGo</string>
+    <string name="login">Login</string>
+    <string name="menu">Menu</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>
